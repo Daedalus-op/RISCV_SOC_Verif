@@ -1,0 +1,231 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do cpu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/imm_extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:32 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/imm_extend.sv 
+# -- Compiling module imm_extend
+# 
+# Top level modules:
+# 	imm_extend
+# End time: 10:52:32 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:32 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 10:52:32 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:32 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 10:52:32 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/alu_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:33 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/alu_decoder.sv 
+# -- Compiling module alu_decoder
+# 
+# Top level modules:
+# 	alu_decoder
+# End time: 10:52:33 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:33 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 10:52:33 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:33 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 10:52:33 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/load_extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:33 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/load_extend.sv 
+# -- Compiling module load_extend
+# 
+# Top level modules:
+# 	load_extend
+# End time: 10:52:33 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/main_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:33 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/main_decoder.sv 
+# -- Compiling module main_decoder
+# 
+# Top level modules:
+# 	main_decoder
+# End time: 10:52:33 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:33 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 10:52:33 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/mux4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:33 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/mux4.sv 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 10:52:33 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:34 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 10:52:34 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/reset_ff.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:34 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/reset_ff.sv 
+# -- Compiling module reset_ff
+# 
+# Top level modules:
+# 	reset_ff
+# End time: 10:52:34 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/store_extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:34 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/store_extend.sv 
+# -- Compiling module store_extend
+# 
+# Top level modules:
+# 	store_extend
+# End time: 10:52:34 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/data_mem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:34 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/data_mem.sv 
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# End time: 10:52:34 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/riscv_cpu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:34 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/riscv_cpu.sv 
+# -- Compiling module riscv_cpu
+# 
+# Top level modules:
+# 	riscv_cpu
+# End time: 10:52:34 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/riscv_cpu_full.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:34 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/riscv_cpu_full.sv 
+# -- Compiling module riscv_cpu_full
+# 
+# Top level modules:
+# 	riscv_cpu_full
+# End time: 10:52:34 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT {C:/Users/deves/Downloads/FINAL_PROJECT/instr_mem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:34 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT" C:/Users/deves/Downloads/FINAL_PROJECT/instr_mem.sv 
+# -- Compiling module instr_mem
+# 
+# Top level modules:
+# 	instr_mem
+# End time: 10:52:34 on Dec 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/deves/Downloads/FINAL_PROJECT/.testbench {C:/Users/deves/Downloads/FINAL_PROJECT/.testbench/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:52:34 on Dec 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deves/Downloads/FINAL_PROJECT/.testbench" C:/Users/deves/Downloads/FINAL_PROJECT/.testbench/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 10:52:35 on Dec 05,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 10:52:35 on Dec 05,2023
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.riscv_cpu_full
+# Loading work.riscv_cpu
+# Loading work.controller
+# Loading work.main_decoder
+# Loading work.alu_decoder
+# Loading work.datapath
+# Loading work.reset_ff
+# Loading work.adder
+# Loading work.mux2
+# Loading work.reg_file
+# Loading work.imm_extend
+# Loading work.alu
+# Loading work.load_extend
+# Loading work.mux4
+# Loading work.store_extend
+# Loading work.instr_mem
+# Loading work.data_mem
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Value of time: 70000 , A: 5 , D: 6 , N: 15, Final: 89
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/deves/Downloads/FINAL_PROJECT/.testbench/tb.sv(68)
+#    Time: 1685 ns  Iteration: 1  Instance: /tb
+# Break in Module tb at C:/Users/deves/Downloads/FINAL_PROJECT/.testbench/tb.sv line 68
+# End time: 20:58:19 on Dec 05,2023, Elapsed time: 10:05:44
+# Errors: 0, Warnings: 0
